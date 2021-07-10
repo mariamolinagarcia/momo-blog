@@ -1,0 +1,182 @@
+
+Html {
+
+    -ms-text-size-adjust: 100%;
+    
+    -webkit-text-size-adjust: 100%;
+    
+    /* prevent iOS text size adjust after orientation change, without disabling user zoom (previene que se ajuste después de una orientación */
+    }
+    
+body {
+    /* background-image: url("file:///Users/macbookpro/Documents/blog/images/fondo.jpeg") ;
+    background-repeat: repeat; */
+    background-color: rgba(0, 0, 0, 0.9);
+    color: rgb(0, 0, 0);
+    
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.25em;
+}
+
+
+   
+    .logo {
+        position: relative; 
+        background-color:rgba(255, 255, 255, 0.9);
+        width: 100%;
+        
+        height: 10em;
+        margin-top: -3em;
+        
+        
+
+    }
+    h1.text-logo{
+        font-family: Doctor Terror;
+        src: url('fonts/Doctor Terror.otf') format('truetype');
+        font-style: normal;
+        font-weight: normal;
+
+        font-size: 4em;
+        
+        padding-left: 2em;
+        padding-top: 1em;
+        
+    }
+    img.img-logo {
+        
+        float: left;
+        margin-left: 20px;
+        margin-right: 1em;
+        margin-top: 0.75em;
+        margin-bottom: 1em;
+        opacity: 0.9;
+        
+    }
+
+    .main-menu {
+        position: relative;
+       
+        margin-bottom: 2em; 
+        margin-left: 1em;
+        align-items: center;
+        overflow: visible;
+        /* -webkit-overflow-scrolling: touch;m */
+        
+    }
+       
+    .list-menu ul{
+        position: relative;
+        width: 100%;
+        max-width: 1000px;
+        height: 2em;
+        background-color: rgba(56, 56, 56, 0.5);
+        padding-right: 1em;
+        border-radius: 0.2em/0.2em;
+        box-shadow: 2px 2px rgba(255, 255, 255, 0.1);
+
+        Box-sizing: border-box;
+        Overflow: auto;  
+        /* esto es lo que lo pone horizontal */ display: flex;
+     
+     
+
+        }
+
+        .nav-menu-li {
+
+        list-style: none;
+       
+        padding: 8px 30px 20px 50px;
+        
+
+        }
+
+        h1 {
+
+            padding: 0.5em 0.5em 0.5em 0.5em;
+            color:rgb(43, 43, 43);
+            font-size: 2em;
+            line-height: 1em;
+        
+        }
+         
+        h2 {
+            font-size: 1.5em;
+            color:silver;
+            padding-left: 20px;
+
+
+
+        }
+
+        p {
+            padding: 1.5em 1.5em 1.5em 1.5em ;
+            
+
+        }
+        a {
+            color:rgb(255, 255, 255);
+            text-decoration:slateblue;
+            -webkit-tap-highlight-color: transparent;
+    
+    
+       
+        }
+        a:link{
+            color:red;
+        }
+        a:visited{
+            color:teal;
+        }
+        a:hover {
+            color:rgb(156, 0, 177);
+           
+    
+        }
+
+        .img-post {
+            position:static;
+            align: center;
+            padding: 0.5em 0.5em 0.5em 0.5em;
+            margin-top: -2em;
+            margin-bottom: -1em;
+            bottom:-1em;
+            top: -1em;
+        }
+
+        .home-post {
+            position:relative;
+            width: 40em;
+            margin: 1em 1em 1em 2em;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 0.5em/0.5em;
+            box-shadow: 2px 2px rgba(255, 255, 255, 0.9);
+
+        }
+
+    .footer {
+
+            position:relative;
+            padding-bottom: 1em;
+            column-count: 2;
+            column-gap: 20px;
+            column-rule: 1px dotted gray;
+            background-color:rgba(0, 0, 0, 0.9);
+            
+        }
+
+        .footer-list{
+            list-style: none;
+            padding: 5px 50px 5px 0px;
+            
+
+        }
+
+        form {
+            background-color:rgba(255, 255, 255, 0.9);
+
+
+        }
+
+        
